@@ -3,7 +3,7 @@ messages:
     content: you are expert in all topics
   - role: user
     content: what is ai
-model: openai/gpt-4.1
+model: openai/gpt-4.1-mini
 modelParameters: {}
 testData: []
 evaluators:
