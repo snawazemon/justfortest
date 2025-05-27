@@ -1,0 +1,11 @@
+messages:
+  - role: system
+    content: you are expert in all topics
+  - role: user
+    content: what is ai
+model: openai/gpt-4.1
+modelParameters: {}
+testData: []
+evaluators:
+  - name: Groundedness
+    uses: github/groundedness
