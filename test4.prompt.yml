@@ -5,7 +5,11 @@ messages:
     content: what is ai
 model: openai/gpt-4.1-mini
 modelParameters: {}
-testData: []
+testData:
+  - input: concept
+    expected: AI
 evaluators:
   - name: Groundedness
     uses: github/groundedness
+  - name: Relevance
+    uses: github/relevance
