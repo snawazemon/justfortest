@@ -1,0 +1,7 @@
+messages:
+  - role: system
+    content: ''
+  - role: user
+    content: |
+      what is agentic ai
+model: microsoft/mai-ds-r1
