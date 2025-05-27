@@ -10,5 +10,6 @@ messages:
   - role: system
     content: you are aws expert answer accordingly
   - role: user
-    content: |
-      what is sagemaker
+    content: |-
+      what is {{sagemaker}}
+      where is {{country}}
